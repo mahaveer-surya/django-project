@@ -1,0 +1,53 @@
+/* Dark Tech Theme */
+.developer-nav {
+  background: #0d1117;          /* GitHub-like dark */
+  padding: 15px 0;
+  border-bottom: 2px solid #58a6ff33;
+}
+
+.developer-nav .accent {
+  color: #58a6ff;               /* Neon Blue Accent */
+}
+
+.developer-nav .nav-link {
+  color: #c9d1d9 !important;
+  margin-left: 20px;
+  position: relative;
+  transition: 0.3s;
+}
+
+.developer-nav .nav-link:hover {
+  color: #58a6ff !important;
+}
+
+/* Cool underline animation */
+.developer-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: #58a6ff;
+  transition: 0.3s;
+}
+
+.developer-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+/* Resume button */
+.resume-btn {
+  background: #58a6ff;
+  color: #0d1117 !important;
+  border-radius: 30px;
+  padding: 6px 18px;
+  margin-left: 20px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.resume-btn:hover {
+  background: #1f6feb;
+  color: white !important;
+}
